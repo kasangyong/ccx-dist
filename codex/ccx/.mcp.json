@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "ccx": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/s",
+        "/c",
+        "call",
+        ".\\bin\\ccx\\ccx.exe",
+        "mcp",
+        "--agent",
+        "codex"
+      ],
+      "cwd": ".",
+      "tools": {
+        "ccx_login": {
+          "approval_mode": "prompt"
+        },
+        "ccx_here": {
+          "approval_mode": "prompt"
+        }
+      }
+    }
+  }
+}

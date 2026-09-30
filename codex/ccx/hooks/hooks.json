@@ -1,0 +1,48 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'ccx: Codex용 ccx는 아직 Windows만 지원한다.' >&2",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT/bin/ccx/ccx.exe\" hook session_start --agent codex"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'ccx: Codex용 ccx는 아직 Windows만 지원한다.' >&2",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT/bin/ccx/ccx.exe\" hook user_prompt --agent codex"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'ccx: Codex용 ccx는 아직 Windows만 지원한다.' >&2",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT/bin/ccx/ccx.exe\" hook stop --agent codex"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'ccx: Codex용 ccx는 아직 Windows만 지원한다.' >&2",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT/bin/ccx/ccx.exe\" hook session_end --agent codex"
+          }
+        ]
+      }
+    ]
+  }
+}
