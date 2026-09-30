@@ -1,0 +1,20 @@
+{
+  "name": "ccx",
+  "owner": {
+    "name": "kasangyong"
+  },
+  "plugins": [
+    {
+      "name": "ccx",
+      "version": "0.3.0",
+      "description": "ccx for Codex (Windows)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kasangyong/ccx-dist.git",
+        "path": "codex/ccx",
+        "ref": "codex-v0.3.0",
+        "sha": "878acd89bd4b3eacb0b8caaa0573a3674756b8f4"
+      }
+    }
+  ]
+}
