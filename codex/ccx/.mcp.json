@@ -19,6 +19,9 @@
         },
         "ccx_here": {
           "approval_mode": "prompt"
+        },
+        "ccx_propose_decision": {
+          "approval_mode": "prompt"
         }
       }
     }
