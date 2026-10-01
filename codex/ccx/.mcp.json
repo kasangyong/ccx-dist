@@ -22,6 +22,9 @@
         },
         "ccx_propose_decision": {
           "approval_mode": "prompt"
+        },
+        "ccx_autocommit": {
+          "approval_mode": "prompt"
         }
       }
     }
