@@ -6,14 +6,14 @@
   "plugins": [
     {
       "name": "ccx",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "description": "ccx for Codex (Windows)",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/kasangyong/ccx-dist.git",
         "path": "codex/ccx",
-        "ref": "codex-v0.4.0",
-        "sha": "39638aac7c0bf26a691e6dfc0ce8e93f219a3b45"
+        "ref": "codex-v0.5.0",
+        "sha": "9f2bdf31f6d4757e5ede9a1da2d434f2d6077afd"
       }
     }
   ]
