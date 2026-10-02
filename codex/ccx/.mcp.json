@@ -25,6 +25,12 @@
         },
         "ccx_autocommit": {
           "approval_mode": "prompt"
+        },
+        "ccx_post_message": {
+          "approval_mode": "prompt"
+        },
+        "ccx_draft_output": {
+          "approval_mode": "prompt"
         }
       }
     }
