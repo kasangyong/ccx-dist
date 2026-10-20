@@ -6,22 +6,22 @@
   "plugins": [
     {
       "name": "ccx-windows",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "description": "ccx for Windows",
       "source": {
         "source": "archive",
-        "url": "https://github.com/kasangyong/ccx-dist/releases/download/v0.7.3/ccx-windows-0.7.3.zip",
-        "sha256": "de5021f21619fbd50ab56300336109ce6937da1a5fc8cb294db589696a57faab"
+        "url": "https://github.com/kasangyong/ccx-dist/releases/download/v0.7.4/ccx-windows-0.7.4.zip",
+        "sha256": "b0ed0a220b1a95c397490aaabc64a0b4326900a2d52d8f9cc56bed34bc8c0631"
       }
     },
     {
       "name": "ccx-macos",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "description": "ccx for macOS (Apple Silicon)",
       "source": {
         "source": "archive",
-        "url": "https://github.com/kasangyong/ccx-dist/releases/download/v0.7.3/ccx-macos-0.7.3.zip",
-        "sha256": "2e4b2ae98159d0379ee9d3b228d18e6c9133e8da705f7d3f542b42fa81b20521"
+        "url": "https://github.com/kasangyong/ccx-dist/releases/download/v0.7.4/ccx-macos-0.7.4.zip",
+        "sha256": "8d21a41a3d957dac04d3c868e268a48ab99dde649f1b68ec5df65f3bed947a4d"
       }
     }
   ]
